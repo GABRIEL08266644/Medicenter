@@ -1,0 +1,143 @@
+/* Responsividade tablet */
+@media (min-width: 750px) and (max-width: 998px) {
+    header {
+        flex-direction: column;
+    }
+
+    .banner-hedline h1 {
+        margin-left: 15px;
+        max-width: 300px;
+        font-size: 2.5rem;
+    }
+
+    .banner-hedline h2 {
+        margin-left: 15px;
+        
+    }
+
+    .flexcolumntablet {
+        flex-direction: column;
+    }
+
+    .menu nav ul li a {
+        padding: 10px 5px;
+        margin: 5px;
+        
+    }
+}
+
+/* Responsividade celular */
+@media (max-width: 750px) {
+   .menu {
+    flex-direction: column; 
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 0px;
+    height: calc(100vh - 100px);
+    margin-top: 80px;
+    transition: all 1s;
+   }
+
+    nav ul {
+        flex-direction: column;
+        width: 0px;
+    }
+
+    .menu nav ul li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .menumobile {
+        margin-left: 15px;
+        margin-top: 10px;   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mn-line {
+        height: 2px;
+        background-color: #39aae1;   
+    }
+    
+    .menu-open {
+        width: 220px;  
+    }
+
+    .banner-hedline {
+        margin: 20px;
+    }
+
+    .banner-hedline h1 {
+        max-width: 300px;
+        font-size: 2.5rem;
+    }
+    .banner-hedline h2 {
+        max-width: 300px;
+        font-size: 1.5rem;
+    }
+
+    .banner-options {
+        height: auto;
+        flex-direction: column; 
+    }
+
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        margin: 0px 20px;
+    }
+
+    #geral {
+        margin-top: 250px;
+    }
+
+    .banner-hedline {
+        max-width: 250px;
+    }
+
+    .banner-options {
+        margin-top: 100px;
+    }
+
+    .flexcolumncll {
+        flex-direction: column;
+    }
+
+    .widget {
+        padding: 10px;
+    }
+
+    .footer-menu {
+        text-align: center;
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu-1,
+    .menu-2,
+    .menu-3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-menu p {
+        margin: auto;
+    }
+
+    .footer-liks {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+
+    .footer-lik {
+        padding: 20px;
+        width: 90%;
+    }
+}

@@ -34,8 +34,10 @@ header{
 .logo-img {
     height: 50px;
     width: 50px;
-    background-color: blue;
-    border-radius: 40%;
+    background-image: url(../../img/logo.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .logo-p a{
@@ -76,7 +78,7 @@ header{
 
 nav .active {
     background-color: #39aae1;
-    color: #fff;
+    color: white;
 }
 
 #banner {

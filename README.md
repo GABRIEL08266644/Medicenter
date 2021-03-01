@@ -1,2 +1,2 @@
 # Medicenter
- Projeto do curso de JHTML5 e CSS3 (b7Web)
+ Projeto  desenvolvido com HTML5, CSS e JS.
